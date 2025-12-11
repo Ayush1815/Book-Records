@@ -95,8 +95,10 @@ Database (MySQL, PostgreSQL, or H2)
 
 Clone the repository
 bash
-git clone <repository-url>
-cd <project-directory>
+
+ git clone <repository-url>
+ cd <project-directory>
+
 
 
 
