@@ -1,5 +1,7 @@
 
-**Bookstore Management System**
+***Bookstore Management System***
+
+
 A RESTful Spring Boot application for managing bookstore records with full CRUD operations and search functionality.
 
 *📚 Project Overview*
@@ -35,15 +37,19 @@ Database: MySQL/PostgreSQL/H2 (configurable)
 
 *📁 Project Structure*
 text
-src/main/java/com/record/books/
-├── Controller/           # REST Controllers
-│   └── Controller.java   # Main controller with all endpoints
-├── Service/             # Business logic layer
-│   └── BookService.java # Book service interface
-├── entities/            # JPA Entities
-│   └── Books.java       # Book entity class
-└── repository/          # Data access layer (not shown but assumed)
-    └── BookRepository.java
+BOOKS/
+├── src/
+│   └── main/
+│       └── java/
+│           └── com/
+│               └── record/
+│                   └── books/
+│                       ├── BooksApplication.java
+│                       ├── BookController.java
+│                       ├── Book.java
+│                       ├── BookService.java
+│                       ├── BookServiceImpl.java
+│                       └── BookRepository.java
 
 *📝 Sample Requests*
 
