@@ -35,17 +35,29 @@ Database: MySQL/PostgreSQL/H2 (configurable)
 
 text
 BOOKS/
+
 ├── src/
+
 │   └── main/
+
 │       └── java/
+
 │           └── com/
+
 │               └── record/
+
 │                   └── books/
-│                       ├── BooksApplication.java
+
+│                       ├── BooksApplication.java 
+
 │                       ├── BookController.java
+
 │                       ├── Book.java
+
 │                       ├── BookService.java
+
 │                       ├── BookServiceImpl.java
+
 │                       └── BookRepository.java
 
 
