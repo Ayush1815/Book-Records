@@ -1,94 +1,94 @@
 
-***Bookstore Management System***
+#Bookstore Management System#
 
 
-A RESTful Spring Boot application for managing bookstore records with full CRUD operations and search functionality.
+    A RESTful Spring Boot application for managing bookstore records with full CRUD operations and search functionality.
 
-**📚 Project Overview**
+##📚 Project Overview##
 
-This is a backend API for a bookstore management system that allows you to manage book records, search books by various criteria, and perform standard CRUD operations.
+    This is a backend API for a bookstore management system that allows you to manage book records, search books by various criteria, and perform standard CRUD operations.
 
-**🚀 Features**
+    ##🚀 Features##
 
-CRUD Operations: Create, Read, Update, and Delete book records
-Advanced Search: Find books by ID, author, title, or price
-RESTful API: Clean and intuitive REST endpoints
-JPA/Hibernate: Database persistence with Spring Data JPA
-Lombok Support: Reduced boilerplate code with annotations
-Serializable Entities: Support for object serialization
-
-
-
-**🛠️ Technologies Used**
-
-Java 17+
-Spring Boot 3.x
-Spring Data JPA
-Hibernate
-Lombok
-Maven/Gradle (depending on project setup)
-Database: MySQL/PostgreSQL/H2 (configurable)
+    CRUD Operations: Create, Read, Update, and Delete book records
+    Advanced Search: Find books by ID, author, title, or price
+    RESTful API: Clean and intuitive REST endpoints
+    JPA/Hibernate: Database persistence with Spring Data JPA
+    Lombok Support: Reduced boilerplate code with annotations
+    Serializable Entities: Support for object serialization
 
 
 
-**📁 Project Structure**
+    ##🛠️ Technologies Used##
 
-text
-BOOKS/
-
-├── src/
-
-│   └── main/
-
-│       └── java/
-
-│           └── com/
-
-│               └── record/
-
-│                   └── books/
-
-│                       ├── BooksApplication.java 
-
-│                       ├── BookController.java
-
-│                       ├── Book.java
-
-│                       ├── BookService.java
-
-│                       ├── BookServiceImpl.java
-
-│                       └── BookRepository.java
+    Java 17+
+    Spring Boot 3.x
+    Spring Data JPA
+    Hibernate
+    Lombok
+    Maven/Gradle (depending on project setup)
+    Database: MySQL/PostgreSQL/H2 (configurable)
 
 
 
-**📝 Sample Requests**
+    ##📁 Project Structure##
 
-1. Add a New Book
-POST /test/post/postbooks
+    text
+    BOOKS/
 
-2. Update a Book
-PUT /test/update/putBooks/1
+    ├── src/
 
-3. Search by Author
-GET /test/getBooksByAuthor/F. Scott Fitzgerald
+    │   └── main/
 
-4. Search by Price
-GET /test/getBookByPrice/12.99
+    │       └── java/
+
+    │           └── com/
+
+    │               └── record/
+
+    │                   └── books/
+
+    │                       ├── BooksApplication.java 
+
+    │                       ├── BookController.java
+
+    │                       ├── Book.java
+
+    │                       ├── BookService.java
+
+    │                       ├── BookServiceImpl.java
+
+    │                       └── BookRepository.java
 
 
-**🚦 Getting Started**
 
-Prerequisites
-Java 17 or highe
-Maven or Gradle
-IDE (IntelliJ IDEA, Eclipse, or VS Code)
-Database (MySQL, PostgreSQL, or H2)
+    ##📝 Sample Requests##
+
+    1. Add a New Book
+    POST /test/post/postbooks
+
+    2. Update a Book
+    PUT /test/update/putBooks/1
+
+    3. Search by Author
+    GET /test/getBooksByAuthor/F. Scott Fitzgerald
+
+    4. Search by Price
+    GET /test/getBookByPrice/12.99
 
 
-**Installation Steps**
+    ##🚦 Getting Started##
 
-Clone the repository
-bash
-git clone <repository-url>
-cd <project-directory>
+    Prerequisites
+    Java 17 or highe
+    Maven or Gradle
+    IDE (IntelliJ IDEA, Eclipse, or VS Code)
+    Database (MySQL, PostgreSQL, or H2)
+
+
+    ##Installation Steps##
+
+    Clone the repository
+    bash
+    git clone <repository-url>
+    cd <project-directory>
