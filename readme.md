@@ -93,11 +93,11 @@ Database (MySQL, PostgreSQL, or H2)
 
 ## Installation Steps ##
 
-Clone the repository
-bash
+   Clone the repository
+   bash
+    git clone <repository-url>
+    cd <project-directory>
 
- git clone <repository-url>
- cd <project-directory>
 
 
 
