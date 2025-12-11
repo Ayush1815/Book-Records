@@ -16,7 +16,6 @@ Lombok Support: Reduced boilerplate code with annotations
 Serializable Entities: Support for object serialization
 
 
-
 ## 🛠️ Technologies Used ##
 
 Java 17+
@@ -35,28 +34,37 @@ BOOKS/
 
 ├── src/
 
-│   └── main/
+│__└── main/
 
-│       └── java/
+│____└── java/
 
-│           └── com/
+│________└── com/
 
-│               └── record/
+│________________└── books/
 
-│                   └── books/
+│________________________|── BooksRepository.java
 
-│                       ├── BooksApplication.java 
+│________________________|── BooksApplication.java
 
-│                       ├── BookController.java
+│________________________└── Controller/
 
-│                       ├── Book.java
+│________________________________├── Controller.java 
 
-│                       ├── BookService.java
+│________________________________├── TestController.java
 
-│                       ├── BookServiceImpl.java
+│________________________└── Entities/
 
-│                       └── BookRepository.java
+│________________________________├── Books.java
 
+│________________________└── Service/
+
+│________________________________├── BookService.java
+
+│________________________________├── BookServiceImpl.java
+
+│________________________└── serial/
+
+│________________________________├── serial.java
 
 
 ## 📝 Sample Requests ##
@@ -86,7 +94,9 @@ Database (MySQL, PostgreSQL, or H2)
 ## Installation Steps ##
 
 Clone the repository
-bash
-git clone <repository-url>
 
-    cd <project-directory>
+bash
+
+git clone <repository-url>
+cd <project-directory>
+
